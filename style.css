@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pricedown&display=swap');
+
 body {
-  background-color: #0a0a0a;
-  color: #ffffff;
-  font-family: 'Arial', sans-serif;
+  margin: 0;
+  font-family: 'Pricedown', sans-serif;
+  background: linear-gradient(180deg, #ff00ff, #00ffff, #ff00ff);
+  color: white;
   text-align: center;
   padding: 4rem 1rem;
-  margin: 0;
 }
 
 .container {
@@ -14,33 +16,39 @@ body {
 
 h1 {
   font-size: 3rem;
+  text-shadow: 2px 2px #000;
   margin-bottom: 1rem;
-  color: #ff3c00;
 }
 
-p {
+.tagline {
+  font-family: 'Arial', sans-serif;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
 .button {
   display: inline-block;
-  background-color: #ff3c00;
+  padding: 1rem 2rem;
+  background: #ff00ff;
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  border-radius: 40px;
+  border: 2px solid #00ffff;
+  text-shadow: 1px 1px #000;
+  font-size: 1rem;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background 0.3s ease;
+  box-shadow: 0 0 20px #00ffff;
+  transition: all 0.3s ease;
 }
 
 .button:hover {
-  background-color: #ff5522;
+  background: #ff33ff;
+  box-shadow: 0 0 30px #00ffff;
 }
 
 footer {
   margin-top: 4rem;
   font-size: 0.9rem;
+  font-family: 'Arial', sans-serif;
 }
 
 footer a {
